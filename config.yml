@@ -1,0 +1,6 @@
+
+indexer:
+  name: 'suggestion'
+  hosts:
+    - 'localhost:9200'
+  driver: 'es'

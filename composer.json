@@ -1,0 +1,24 @@
+{
+  "name": "ouranoshong/suggestion",
+  "description": "search engine suggestion",
+  "minimum-stability": "dev",
+  "license": "none",
+  "authors": [
+    {
+      "name": "hong",
+      "email": "ouranoshong@outlook.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.19.0",
+    "symfony/console": "3.1.x-dev",
+    "elasticsearch/elasticsearch": "v2.1.5",
+    "mongodb/mongodb": "1.1.x-dev",
+    "symfony/yaml": "3.1.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ace\\Suggestion\\": "./src"
+    }
+  }
+}
