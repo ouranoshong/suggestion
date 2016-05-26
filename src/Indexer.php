@@ -8,7 +8,6 @@
 
 namespace Ace\Suggestion;
 
-
 use Ace\Suggestion\ESDriver\ConfigHandle;
 use Ace\Suggestion\ESDriver\InitClient;
 use Ace\Suggestion\ESDriver\ManagementOperate;
@@ -16,6 +15,5 @@ use Ace\Suggestion\ESDriver\ManagementOperate;
 class Indexer
 {
     use ConfigHandle, InitClient, ManagementOperate;
-    
-    
+
 }
