@@ -8,8 +8,9 @@
 
 namespace Ace\Suggestion;
 
+use \Ace\Suggestion\Contracts\Suggestion as SugguestionContract;
 
-class Suggestion
+class Suggestion implements SugguestionContract
 {
 
     /**

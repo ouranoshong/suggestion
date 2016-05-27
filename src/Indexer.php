@@ -11,9 +11,13 @@ namespace Ace\Suggestion;
 use Ace\Suggestion\ESDriver\ConfigHandle;
 use Ace\Suggestion\ESDriver\InitClient;
 use Ace\Suggestion\ESDriver\ManagementOperate;
+use Ace\Suggestion\ESDriver\SuggestionHandle;
+use Ace\Suggestion\Contracts\Indexer\SuggestionHandle as SugestionContract;
 
-class Indexer
+class Indexer implements SugestionContract
 {
-    use ConfigHandle, InitClient, ManagementOperate;
-
+    use ConfigHandle,
+        InitClient,
+        ManagementOperate,
+        SuggestionHandle;
 }
