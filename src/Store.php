@@ -8,9 +8,10 @@
 
 namespace Ace\Suggestion;
 
+use Ace\Suggestion\MongoDriver\InitClient;
 use Ace\Suggestion\MongoDriver\SuggestionHandle;
 
 class Store
 {
-    use LogHandle, SuggestionHandle;
+    use LogHandle, InitClient, SuggestionHandle;
 }

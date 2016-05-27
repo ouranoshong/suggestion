@@ -11,10 +11,22 @@ namespace Ace\Suggestion\MongoDriver;
 
 use MongoDB\Driver\Manager;
 
-class InitClient
+/**
+ * Class InitClient
+ * @package Ace\Suggestion\MongoDriver
+ */
+trait InitClient
 {
+    /**
+     * @var
+     */
     protected $_Client;
-    
+
+
+    /**
+     * @return Manager
+     * @throws \Exception
+     */
     public function Client() {
         if (is_null($this->_Client)) {
             $configs = self::parseConfig();

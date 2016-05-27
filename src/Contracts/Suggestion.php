@@ -13,4 +13,5 @@ interface Suggestion
 {
     const STATUS_OFF = 'off';
     const STATUS_ON = 'on';
+    
 }

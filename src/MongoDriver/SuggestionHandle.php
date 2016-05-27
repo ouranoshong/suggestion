@@ -8,11 +8,10 @@
 
 namespace Ace\Suggestion\MongoDriver;
 
-use Ace\Suggestion\Contracts\Indexer\SuggestionHandle as IndexerSuggestionHandle;
-use Ace\Suggestion\Contracts\Suggestion;
+
+use Ace\Suggestion\Suggestion;
 
 trait SuggestionHandle
 {
-    
-
+//    public
 }
